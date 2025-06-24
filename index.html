@@ -2,81 +2,128 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Caio | Automação com N8n & Python</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       margin: 0;
       font-family: 'Inter', sans-serif;
-      background-color: #0f0f0f;
-      color: #eaeaea;
+      background: #0f0f0f;
+      color: #f2f2f2;
     }
-    header, footer {
+    header {
       text-align: center;
-      padding: 2rem 1rem;
-      background-color: #151515;
+      padding: 3rem 1rem;
+      background: #151515;
     }
     header h1 {
-      font-size: 2rem;
+      font-size: 2.5rem;
       color: #00ff9d;
+      animation: slideIn 1s ease-out forwards;
     }
-    section {
-      padding: 2rem 1rem;
-      max-width: 900px;
+    header p {
+      opacity: 0;
+      animation: fadeIn 2s ease-in forwards;
+      animation-delay: 0.5s;
+    }
+    @keyframes slideIn {
+      from { transform: translateY(-20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+    .container {
+      max-width: 960px;
       margin: auto;
+      padding: 2rem 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
     }
     .card {
       background: #1c1c1c;
+      border-radius: 12px;
       padding: 1.5rem;
-      margin: 1rem 0;
-      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,255,157,0.1);
+      transition: transform 0.3s ease;
     }
-    .btn {
-      display: inline-block;
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card h2 {
+      color: #00ff9d;
+      margin-top: 0;
+    }
+    a.btn {
       background: #00ff9d;
       color: #000;
-      padding: 0.8rem 1.2rem;
-      margin-top: 1rem;
-      border-radius: 6px;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
       text-decoration: none;
       font-weight: bold;
+      display: inline-block;
+      margin-top: 1rem;
+      transition: background 0.3s;
+    }
+    a.btn:hover {
+      background: #00cc7a;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #151515;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .card {
+        width: 48%;
+      }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Automação Inteligente para Negócios</h1>
-    <p>Com N8n, Python e integração com ferramentas do dia a dia</p>
+    <h1>Automação com N8n & Python</h1>
+    <p>Soluções inteligentes para consultórios e pequenas empresas</p>
   </header>
 
-  <section>
-    <h2>🚀 O que eu faço</h2>
+  <div class="container">
     <div class="card">
-      <p>Automatizo tarefas repetitivas, como envio de mensagens, agendamentos, integrações com Google Sheets, WhatsApp, CRMs e muito mais.</p>
+      <h2>🚀 Automatize Tarefas Repetitivas</h2>
+      <p>Fluxos de trabalho com N8n para economizar tempo, reduzir erros e centralizar dados automaticamente.</p>
     </div>
 
-    <h2>💼 Soluções para você</h2>
     <div class="card">
-      <strong>Consultórios:</strong> Agendamento automático, confirmações via WhatsApp, planilhas automatizadas.<br><br>
-      <strong>Empresas:</strong> Coleta de dados, integrações entre plataformas, relatórios inteligentes.
+      <h2>📅 Agendamentos Inteligentes</h2>
+      <p>Integrações com Google Forms, Sheets e WhatsApp para confirmar agendamentos sem esforço manual.</p>
     </div>
 
-    <h2>📊 Projetos recentes</h2>
     <div class="card">
-      <p><strong>Clínica X:</strong> Integração com Google Agenda e envio automático de confirmações → economia de 3h por dia.</p>
-      <p><strong>Loja Y:</strong> Integração entre vendas online e controle de estoque via planilhas → redução de erros em 90%.</p>
+      <h2>📈 Dashboards em Tempo Real</h2>
+      <p>Transforme dados em decisões com automações que alimentam dashboards automaticamente.</p>
     </div>
 
-    <h2>📲 Fale comigo</h2>
     <div class="card">
-      <p>Quer automatizar seu negócio também?</p>
-      <a href="https://wa.me/seunumerowhatsapp" class="btn">Chamar no WhatsApp</a>
+      <h2>📞 Entre em Contato</h2>
+      <p>Quer implementar automações no seu negócio? Fale comigo e receba um diagnóstico gratuito.</p>
+      <a class="btn" href="https://wa.me/559999999999">Falar via WhatsApp</a>
     </div>
-  </section>
+  </div>
 
   <footer>
-    <p>© 2025 Caio | Soluções em Automação</p>
+    <p>© 2025 Caio Automação | Feito com N8n, Python e criatividade ⚙️</p>
   </footer>
 </body>
 </html>
