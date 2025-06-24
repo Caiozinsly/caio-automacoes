@@ -39,9 +39,9 @@ Abaixo, um fluxo construído no N8n que automatiza o envio de mensagens de confi
 
 ## 💬 Fale comigo
 
-- 📲 WhatsApp: [Clique aqui](https://wa.me/55SEUNUMERO)
-- 🌐 Instagram: [@seuusuario](https://instagram.com/seuusuario)
-- ✉️ Email: contato@seudominio.com
+- 📲 WhatsApp: [Clique aqui](https://wa.me/5514981688892)
+- 🌐 Instagram: [@seuusuario](https://www.instagram.com/caiozinsly/)
+- ✉️ Email: hello.devlooms@gmail.com
 
 ---
 
