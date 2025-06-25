@@ -1,5 +1,4 @@
-# Conteúdo do style.css
-css_content = """
+
 * {
   box-sizing: border-box;
 }
@@ -84,4 +83,3 @@ footer {
     width: 48%;
   }
 }
-"""
