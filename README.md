@@ -40,7 +40,7 @@ Abaixo, um fluxo construído no N8n que automatiza o envio de mensagens de confi
 ## 💬 Fale comigo
 
 - 📲 WhatsApp: [Clique aqui](https://wa.me/5514981688892)
-- 🌐 Instagram: [@seuusuario](https://www.instagram.com/caiozinsly/)
+- 🌐 Instagram: [@Caiozinsly](https://www.instagram.com/caiozinsly/)
 - ✉️ Email: hello.devlooms@gmail.com
 
 ---
@@ -48,7 +48,7 @@ Abaixo, um fluxo construído no N8n que automatiza o envio de mensagens de confi
 ## 🌍 Veja em ação
 
 > Demonstração completa no meu site:  
-🔗 [https://seuusuario.github.io](https://seuusuario.github.io)
+🔗 [https://caiozinsly.github.io/caio-automacoes/](https://caiozinsly.github.io/caio-automacoes/)
 
 ---
 
