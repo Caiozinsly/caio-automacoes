@@ -51,13 +51,3 @@ Abaixo, um fluxo construído no N8n que automatiza o envio de mensagens de confi
 🔗 [https://caiozinsly.github.io/caio-automacoes/](https://caiozinsly.github.io/caio-automacoes/)
 
 ---
-
-### 📁 Instruções para imagem:
-
-- Crie uma pasta chamada `imagens` no repositório.
-- Faça upload da captura de tela do fluxo N8n (ex: `fluxo-n8n-exemplo.png`).
-- Ajuste o nome e caminho da imagem no README se necessário.
-
----
-
-Se quiser, posso gerar uma [imagem ilustrativa personalizada de um fluxo N8n](f) ou uma [versão do README com múltiplas imagens e ícones](f).
